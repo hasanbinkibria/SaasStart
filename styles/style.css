@@ -1,0 +1,29 @@
+h1 {
+  color: #054efa;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h2 {
+  color: #054efa;
+}
+
+p {
+  font-weight: 900;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90px;
+  background-color: red;
+  text-align: center;
+}
+
+.te {
+  font-weight: 900;
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90px;
+  background-color: black;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

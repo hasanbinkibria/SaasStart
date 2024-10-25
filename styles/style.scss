@@ -1,0 +1,35 @@
+$primary_color: #054efa;
+
+@mixin headline ($color:green, $background:black){ //the default values are used to use if user call without any parameters.
+
+    font-weight: 900;
+    color: $color;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    background-color: $background;
+    text-align: center;
+}
+
+h1{
+    color: $primary_color ;
+
+    font:{
+        family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        style: italic;
+    }
+    text:{
+        align:center;
+        transform: lowercase;
+    }
+    
+}
+h2{
+    color: $primary_color;
+}
+p{
+    @include headline(#fff,red);
+
+}
+.te{
+    @include headline; //WIth no parameters .
+}
